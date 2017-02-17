@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="hw.pjbk"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="3" 
+          android:targetSdkVersion="9"
+          android:maxSdkVersion="19" />/>
+
+    <application android:icon="@drawable/icon" 
+                 android:label="Mathify" 
+                 android:name="Mathify">
+        <activity android:name=".Quiz1Activity"
+                  android:label="Mathify"
+                  android:theme="@android:style/Theme.NoTitleBar">
+            
+        </activity>
+<activity android:name=".matmain"
+		android:theme="@android:style/Theme.NoTitleBar">  
+		  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".score"
+		android:theme="@android:style/Theme.NoTitleBar">    
+        </activity>
+        <activity android:name=".quiz"
+		android:theme="@android:style/Theme.NoTitleBar">    
+        </activity>
+        <activity android:name=".NumericQuestion"
+		android:theme="@android:style/Theme.NoTitleBar">    
+        </activity>
+        <activity android:name=".quiztim"
+		android:theme="@android:style/Theme.NoTitleBar">    
+        </activity>
+
+        <activity android:name=".NumericQuestion1"
+            android:theme="@android:style/Theme.NoTitleBar"      >
+    
+        </activity>
+        <activity android:name=".NumericQuestion2"
+             android:theme="@android:style/Theme.NoTitleBar"     >
+    
+        </activity>
+        <activity android:name=".NumericQuestion3"
+           android:theme="@android:style/Theme.NoTitleBar"      >
+    
+        </activity>
+        <activity android:name=".NumericQuestion4"
+             android:theme="@android:style/Theme.NoTitleBar"   >
+    
+        </activity>
+    </application>
+</manifest>
